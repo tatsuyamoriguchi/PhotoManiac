@@ -43,11 +43,18 @@ struct ContentView: View {
                 Spacer()
                 
                 if let image = viewModel.image {
+                    ZStack {
                     image
                         .resizable()
                         .foregroundColor(Color.pink)
                         .frame(width: 200, height: 200)
                         .padding()
+                    }
+                    .frame(width: UIScreen.main.bounds.width / 1.2, height: UIScreen.main.bounds.width / 1.2, alignment: .center)
+                    .background(Color.pink)
+                    .cornerRadius(8)
+                    
+                    
                 } else {
                     
                     Image(systemName: "photo")
