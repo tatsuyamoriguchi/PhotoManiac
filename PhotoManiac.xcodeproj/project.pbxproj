@@ -14,7 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C48EA482884F7FB00C44757 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		8C9CF56B27F6291F00314385 /* PhotoManiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoManiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9CF56E27F6291F00314385 /* PhotoManiacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManiacApp.swift; sourceTree = "<group>"; };
 		8C9CF57027F6291F00314385 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,7 +36,6 @@
 		8C9CF56227F6291F00314385 = {
 			isa = PBXGroup;
 			children = (
-				8C48EA482884F7FB00C44757 /* index.html */,
 				8C9CF56D27F6291F00314385 /* PhotoManiac */,
 				8C9CF56C27F6291F00314385 /* Products */,
 			);
